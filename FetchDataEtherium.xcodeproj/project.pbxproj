@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D628625D2C0BC0C500C7BD7C /* FetchDataEtheriumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628625C2C0BC0C500C7BD7C /* FetchDataEtheriumApp.swift */; };
+		D628625F2C0BC0C500C7BD7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628625E2C0BC0C500C7BD7C /* ContentView.swift */; };
+		D62862612C0BC0C700C7BD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62862602C0BC0C700C7BD7C /* Assets.xcassets */; };
+		D62862642C0BC0C700C7BD7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62862632C0BC0C700C7BD7C /* Preview Assets.xcassets */; };
+		D628626E2C0BC0C800C7BD7C /* FetchDataEtheriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628626D2C0BC0C800C7BD7C /* FetchDataEtheriumTests.swift */; };
+		D62862782C0BC0C800C7BD7C /* FetchDataEtheriumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62862772C0BC0C800C7BD7C /* FetchDataEtheriumUITests.swift */; };
+		D628627A2C0BC0C800C7BD7C /* FetchDataEtheriumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62862792C0BC0C800C7BD7C /* FetchDataEtheriumUITestsLaunchTests.swift */; };
+		D62862892C0BC14400C7BD7C /* web3.swift in Frameworks */ = {isa = PBXBuildFile; productRef = D62862882C0BC14400C7BD7C /* web3.swift */; };
+		D628628B2C0BC77600C7BD7C /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628628A2C0BC77600C7BD7C /* FetchData.swift */; };
+		D628628F2C0BC9F800C7BD7C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628628E2C0BC9F800C7BD7C /* APIManager.swift */; };
+		D62862942C0BCA6700C7BD7C /* FetchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62862932C0BCA6700C7BD7C /* FetchViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D628626A2C0BC0C800C7BD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62862512C0BC0C500C7BD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62862582C0BC0C500C7BD7C;
+			remoteInfo = FetchDataEtherium;
+		};
+		D62862742C0BC0C800C7BD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62862512C0BC0C500C7BD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62862582C0BC0C500C7BD7C;
+			remoteInfo = FetchDataEtherium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62862592C0BC0C500C7BD7C /* FetchDataEtherium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchDataEtherium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628625C2C0BC0C500C7BD7C /* FetchDataEtheriumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataEtheriumApp.swift; sourceTree = "<group>"; };
+		D628625E2C0BC0C500C7BD7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D62862602C0BC0C700C7BD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D62862632C0BC0C700C7BD7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D62862692C0BC0C800C7BD7C /* FetchDataEtheriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchDataEtheriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628626D2C0BC0C800C7BD7C /* FetchDataEtheriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataEtheriumTests.swift; sourceTree = "<group>"; };
+		D62862732C0BC0C800C7BD7C /* FetchDataEtheriumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchDataEtheriumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62862772C0BC0C800C7BD7C /* FetchDataEtheriumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataEtheriumUITests.swift; sourceTree = "<group>"; };
+		D62862792C0BC0C800C7BD7C /* FetchDataEtheriumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataEtheriumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D62862862C0BC0D400C7BD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D628628A2C0BC77600C7BD7C /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		D628628E2C0BC9F800C7BD7C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D62862932C0BCA6700C7BD7C /* FetchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62862562C0BC0C500C7BD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62862892C0BC14400C7BD7C /* web3.swift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62862662C0BC0C800C7BD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62862702C0BC0C800C7BD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62862502C0BC0C500C7BD7C = {
+			isa = PBXGroup;
+			children = (
+				D628625B2C0BC0C500C7BD7C /* FetchDataEtherium */,
+				D628626C2C0BC0C800C7BD7C /* FetchDataEtheriumTests */,
+				D62862762C0BC0C800C7BD7C /* FetchDataEtheriumUITests */,
+				D628625A2C0BC0C500C7BD7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D628625A2C0BC0C500C7BD7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62862592C0BC0C500C7BD7C /* FetchDataEtherium.app */,
+				D62862692C0BC0C800C7BD7C /* FetchDataEtheriumTests.xctest */,
+				D62862732C0BC0C800C7BD7C /* FetchDataEtheriumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D628625B2C0BC0C500C7BD7C /* FetchDataEtherium */ = {
+			isa = PBXGroup;
+			children = (
+				D62862902C0BCA3500C7BD7C /* ViewModel */,
+				D628628D2C0BC9E900C7BD7C /* APIManager */,
+				D628628C2C0BC77C00C7BD7C /* Model */,
+				D62862862C0BC0D400C7BD7C /* Info.plist */,
+				D628625C2C0BC0C500C7BD7C /* FetchDataEtheriumApp.swift */,
+				D628625E2C0BC0C500C7BD7C /* ContentView.swift */,
+				D62862602C0BC0C700C7BD7C /* Assets.xcassets */,
+				D62862622C0BC0C700C7BD7C /* Preview Content */,
+			);
+			path = FetchDataEtherium;
+			sourceTree = "<group>";
+		};
+		D62862622C0BC0C700C7BD7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D62862632C0BC0C700C7BD7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D628626C2C0BC0C800C7BD7C /* FetchDataEtheriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				D628626D2C0BC0C800C7BD7C /* FetchDataEtheriumTests.swift */,
+			);
+			path = FetchDataEtheriumTests;
+			sourceTree = "<group>";
+		};
+		D62862762C0BC0C800C7BD7C /* FetchDataEtheriumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D62862772C0BC0C800C7BD7C /* FetchDataEtheriumUITests.swift */,
+				D62862792C0BC0C800C7BD7C /* FetchDataEtheriumUITestsLaunchTests.swift */,
+			);
+			path = FetchDataEtheriumUITests;
+			sourceTree = "<group>";
+		};
+		D628628C2C0BC77C00C7BD7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D628628A2C0BC77600C7BD7C /* FetchData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D628628D2C0BC9E900C7BD7C /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D628628E2C0BC9F800C7BD7C /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D62862902C0BCA3500C7BD7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D62862932C0BCA6700C7BD7C /* FetchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62862582C0BC0C500C7BD7C /* FetchDataEtherium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D628627D2C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtherium" */;
+			buildPhases = (
+				D62862552C0BC0C500C7BD7C /* Sources */,
+				D62862562C0BC0C500C7BD7C /* Frameworks */,
+				D62862572C0BC0C500C7BD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchDataEtherium;
+			packageProductDependencies = (
+				D62862882C0BC14400C7BD7C /* web3.swift */,
+			);
+			productName = FetchDataEtherium;
+			productReference = D62862592C0BC0C500C7BD7C /* FetchDataEtherium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62862682C0BC0C800C7BD7C /* FetchDataEtheriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62862802C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtheriumTests" */;
+			buildPhases = (
+				D62862652C0BC0C800C7BD7C /* Sources */,
+				D62862662C0BC0C800C7BD7C /* Frameworks */,
+				D62862672C0BC0C800C7BD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D628626B2C0BC0C800C7BD7C /* PBXTargetDependency */,
+			);
+			name = FetchDataEtheriumTests;
+			productName = FetchDataEtheriumTests;
+			productReference = D62862692C0BC0C800C7BD7C /* FetchDataEtheriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62862722C0BC0C800C7BD7C /* FetchDataEtheriumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62862832C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtheriumUITests" */;
+			buildPhases = (
+				D628626F2C0BC0C800C7BD7C /* Sources */,
+				D62862702C0BC0C800C7BD7C /* Frameworks */,
+				D62862712C0BC0C800C7BD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62862752C0BC0C800C7BD7C /* PBXTargetDependency */,
+			);
+			name = FetchDataEtheriumUITests;
+			productName = FetchDataEtheriumUITests;
+			productReference = D62862732C0BC0C800C7BD7C /* FetchDataEtheriumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62862512C0BC0C500C7BD7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D62862582C0BC0C500C7BD7C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D62862682C0BC0C800C7BD7C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D62862582C0BC0C500C7BD7C;
+					};
+					D62862722C0BC0C800C7BD7C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D62862582C0BC0C500C7BD7C;
+					};
+				};
+			};
+			buildConfigurationList = D62862542C0BC0C500C7BD7C /* Build configuration list for PBXProject "FetchDataEtherium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62862502C0BC0C500C7BD7C;
+			packageReferences = (
+				D62862872C0BC14400C7BD7C /* XCRemoteSwiftPackageReference "web3" */,
+			);
+			productRefGroup = D628625A2C0BC0C500C7BD7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62862582C0BC0C500C7BD7C /* FetchDataEtherium */,
+				D62862682C0BC0C800C7BD7C /* FetchDataEtheriumTests */,
+				D62862722C0BC0C800C7BD7C /* FetchDataEtheriumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62862572C0BC0C500C7BD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62862642C0BC0C700C7BD7C /* Preview Assets.xcassets in Resources */,
+				D62862612C0BC0C700C7BD7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62862672C0BC0C800C7BD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62862712C0BC0C800C7BD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62862552C0BC0C500C7BD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628628F2C0BC9F800C7BD7C /* APIManager.swift in Sources */,
+				D628625F2C0BC0C500C7BD7C /* ContentView.swift in Sources */,
+				D628628B2C0BC77600C7BD7C /* FetchData.swift in Sources */,
+				D628625D2C0BC0C500C7BD7C /* FetchDataEtheriumApp.swift in Sources */,
+				D62862942C0BCA6700C7BD7C /* FetchViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62862652C0BC0C800C7BD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628626E2C0BC0C800C7BD7C /* FetchDataEtheriumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628626F2C0BC0C800C7BD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628627A2C0BC0C800C7BD7C /* FetchDataEtheriumUITestsLaunchTests.swift in Sources */,
+				D62862782C0BC0C800C7BD7C /* FetchDataEtheriumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D628626B2C0BC0C800C7BD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62862582C0BC0C500C7BD7C /* FetchDataEtherium */;
+			targetProxy = D628626A2C0BC0C800C7BD7C /* PBXContainerItemProxy */;
+		};
+		D62862752C0BC0C800C7BD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62862582C0BC0C500C7BD7C /* FetchDataEtherium */;
+			targetProxy = D62862742C0BC0C800C7BD7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D628627B2C0BC0C800C7BD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D628627C2C0BC0C800C7BD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D628627E2C0BC0C800C7BD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchDataEtherium/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchDataEtherium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtherium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D628627F2C0BC0C800C7BD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchDataEtherium/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FetchDataEtherium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtherium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62862812C0BC0C800C7BD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtheriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchDataEtherium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchDataEtherium";
+			};
+			name = Debug;
+		};
+		D62862822C0BC0C800C7BD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtheriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchDataEtherium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchDataEtherium";
+			};
+			name = Release;
+		};
+		D62862842C0BC0C800C7BD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtheriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchDataEtherium;
+			};
+			name = Debug;
+		};
+		D62862852C0BC0C800C7BD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.FetchDataEtheriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchDataEtherium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62862542C0BC0C500C7BD7C /* Build configuration list for PBXProject "FetchDataEtherium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628627B2C0BC0C800C7BD7C /* Debug */,
+				D628627C2C0BC0C800C7BD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D628627D2C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtherium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628627E2C0BC0C800C7BD7C /* Debug */,
+				D628627F2C0BC0C800C7BD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62862802C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtheriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62862812C0BC0C800C7BD7C /* Debug */,
+				D62862822C0BC0C800C7BD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62862832C0BC0C800C7BD7C /* Build configuration list for PBXNativeTarget "FetchDataEtheriumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62862842C0BC0C800C7BD7C /* Debug */,
+				D62862852C0BC0C800C7BD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D62862872C0BC14400C7BD7C /* XCRemoteSwiftPackageReference "web3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argentlabs/web3.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D62862882C0BC14400C7BD7C /* web3.swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D62862872C0BC14400C7BD7C /* XCRemoteSwiftPackageReference "web3" */;
+			productName = web3.swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D62862512C0BC0C500C7BD7C /* Project object */;
+}
